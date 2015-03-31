@@ -285,6 +285,8 @@ static const bool config_ivsalloc =
 #  endif
 #endif
 
+#define LG_QUANTUM		4
+
 #define	QUANTUM			((size_t)(1U << LG_QUANTUM))
 #define	QUANTUM_MASK		(QUANTUM - 1)
 
